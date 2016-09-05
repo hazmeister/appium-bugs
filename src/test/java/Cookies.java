@@ -34,6 +34,10 @@ public class Cookies {
         wait = new WebDriverWait(driver, 10);
     }
 
+
+    /**
+     * Use a clean simulator or reset the cookies on the device before running this test
+     */
     @Test
     public void cookieTest() {
         driver.get("https://accounts.google.com/AccountChooser");
